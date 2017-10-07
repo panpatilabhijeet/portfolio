@@ -1,0 +1,279 @@
+a
+  font-size: 10px
+
+img
+  width: 500px
+  height: 100%
+  display: inline-block
+
+
+.nav
+  background-color: #27323a
+  font-family: 'Comfortaa', cursive
+  display: flex
+
+  .name
+    font-size: 5rem
+    padding-left: 50px
+    flex: 1
+    color: white
+    opacity: 0.8
+    &:hover
+      opacity: 1
+
+  .nav-menu
+    padding-right:  20px
+    color: white
+    flex: 1
+    display: flex
+    flex-direction: row-reverse
+    padding-top: 1%
+    padding-bottom: 1%
+    .menu-names
+      float: right
+      list-style: none
+      display: inline-block
+      .menu-name
+        padding-left: 10px
+        padding-right: 10px
+        opacity: 0.8
+        display: inline-block
+        color: white
+        a
+          font-size: 2.5rem
+          color: white
+          &:active
+            color: white
+            font-style: normal
+          &:visited
+            color: white
+        &:hover
+          opacity: 1
+
+
+.head
+  position: relative
+  display: flex
+  align-items: stretch
+  padding-top: 10px
+  .left
+    height: 100%
+    background: white
+
+  .right
+    font-family: 'Neucha', cursive
+    letter-spacing: 0.1rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    color: #27323a
+    .msg
+      font-size: 3.5rem
+    .full-name
+      padding-top: 50px
+      padding-bottom: 5px
+      font-size: 3rem
+
+    .degree
+      font-size:  2.5rem
+      padding-bottom:  5px
+      i
+        font-size: 2rem
+
+    .spec
+      font-size: 2.5rem
+      padding-bottom: 5px
+      i
+        font-size: 2rem
+
+//======================== education===============
+
+.edu
+  margin-top: 30px
+  padding: 20px
+  font-family: 'Inconsolata', monospace
+
+  h1
+    padding-bottom: 0
+  hr
+    margin-top: 0
+    margin-bottom: 30px
+    border-top: 1px solid opacify(#27323a, 0.8)
+
+  table
+    th
+      text-align: center
+      background-color: #27323a
+      color: white
+      font-size: 2.75rem
+      padding: 10px
+    tr
+      text-align: center
+      font-weight: 600
+      font-size: 2rem
+      padding: 5px
+
+
+//===================skills==============
+.skills
+  padding: 20px
+  font-family: 'Josefin Sans', sans-serif
+  h1
+    padding-bottom: 0
+  hr
+    margin-top: 0
+    margin-bottom: 30px
+    border-top: 1px solid opacify(#27323a, 0.8)
+
+  .technical-skills
+    h2
+      padding-bottom: 10px
+    .lang
+      .heading
+        font-size: 2.2rem
+      .icons
+        text-align: center
+        font-size: 8rem
+        small
+          font-size: 3rem
+        &:hover
+          transform: scale(1.2)
+          transition: all 100ms
+  .divider
+    margin-top: 5px
+    margin-bottom: 5px
+    border: 0.5px solid opacify(#ccc, 0.5)
+
+  .non-tech-skills
+    margin-top: 30px
+    h2
+      padding-bottom: 10px
+    .left
+      ul
+        list-style: none
+        text-align: left
+        li
+          font-size: 2rem
+          font-weight: bolder
+          padding: 5px
+          &::before
+            content: '✓'
+    .right
+      ul
+        list-style: none
+        text-align: left
+        li
+          font-size: 2rem
+          font-weight: bolder
+          padding: 5px
+          &::before
+            content: '✓'
+
+// ==================== projects =====================
+.projects
+  padding: 20px
+  background-color: opacify(#27323a, 0.4)
+  color: opacify(#eee, 0.1)
+  font-family: 'Mada', sans-serif
+  h1
+    padding-bottom: 0
+  hr
+    margin-top: 0
+    margin-bottom: 30px
+    border-top: 1px solid opacify(white, 0.8)
+
+  .project-item
+    padding: 20px
+    h3
+      word-spacing: 0.5rem
+      font-size: 2.5rem
+    h5
+      word-spacing: 0.2rem
+      margin-left: 50px
+      padding-top: 5px
+      font-size: 2.2rem
+
+    a
+      margin-left: 60px
+      padding-top: 5px
+      font-size: 2.1rem
+      color: white
+      &:active
+        color: white
+      &:visited
+        color: white
+
+
+
+
+.achievement
+  margin-top: 30px
+  padding: 20px
+  font-family: 'Amaranth', sans-serif
+
+  h1
+    padding-bottom: 0
+  hr
+    margin-top: 0
+    margin-bottom: 30px
+    border-top: 1px solid opacify(#27323a, 0.8)
+  h3
+    font-size: 2.5rem
+
+.extra
+  margin-top: 30px
+  padding: 20px
+  font-family: 'Antic Slab', serif
+
+  h1
+    padding-bottom: 0
+  h2
+    font-size: 2.5rem
+  hr
+    margin-top: 0
+    margin-bottom: 30px
+    border-top: 1px solid opacify(#27323a, 0.8)
+
+  h2.java
+    font-size: 4rem
+
+//======================== quotes=============
+.quotes
+  text-align: center
+
+
+
+
+
+// ++=========================== footer ==================
+.page-footer
+  padding: 20px
+  margin-top: 50px
+  background-color: opacify(#27323a, 0.4)
+  color: opacify(#eee, 0.1)
+  font-family: 'Mada', sans-serif
+  h1
+    padding-bottom: 0
+  hr
+    margin-top: 0
+    margin-bottom: 30px
+    border-top: 1px solid opacify(white, 0.8)
+  .contact
+
+    h4.icon
+      text-align: center
+      opacity: 0.8
+      &:hover
+        opacity: 1
+    h4
+      font-size: 2.5rem
+      opacity: 0.8
+      &:hover
+        opacity: 1
+    a
+      color: white
+      &:active
+        color: white
+      &:visited
+        color: white
